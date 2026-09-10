@@ -1,8 +1,8 @@
 # ECE_528_Homework_1
 
-1a) What is the difference between a compiler and an interpreter?
+1) a) What is the difference between a compiler and an interpreter?
 
-1b) What is the output of a C program's main() function by default?
+   b) What is the output of a C program's main() function by default?
 
 2) What are the header files in C and what is the purpose of the #include directive?
 
