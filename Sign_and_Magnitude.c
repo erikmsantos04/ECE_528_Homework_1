@@ -5,6 +5,8 @@ int main(){
     int num;
     int mag;
 
+    printf("ECE 528/L - Erik Santos - HW1\n");
+
     printf("Enter a number to find its sign and magnitude!"); // Prompt user
     scanf("%d", &num); // Read and store input
 
