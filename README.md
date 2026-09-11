@@ -86,6 +86,11 @@ P1->SEL1 &= ~0x81;
 
 15) Write a void function named LEDs_Init that configures the following pins as GPIO outputs. Initialize the pins to zero.
     * P7.0 to P7.7
+   
+# Screenshots
+<img width="977" height="877" alt="ECE528_hw1_Sign_ _Magnitude" src="https://github.com/user-attachments/assets/0307557f-1131-4170-9b7d-bd8584b12b96" />
+<img width="985" height="776" alt="ECE528_hw1_Bit_Counter" src="https://github.com/user-attachments/assets/58ae9009-c2a9-4a43-97c5-8335d75320b4" />
+<img width="940" height="525" alt="ECE528_hw1_Fibonacci" src="https://github.com/user-attachments/assets/057e6520-ed1c-4231-945f-2138f22fd847" />
 
 # References
 - Gemini for a couple of Review Questions and clarification for type casting for Bit Counter
