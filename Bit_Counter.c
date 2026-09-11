@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include <inttypes.h>
 
@@ -6,19 +7,16 @@ int main() {
     uint32_t  num;
     uint32_t num_init;
     int bits = 0;
+    char input[100];
 
     printf("ECE 528/L - Erik Santos - HW1\n");
 
     printf("Enter a number a non-negative integer: "); // Prompt user
     scanf("%u", &num); // Read and store input
 
-    if (num < 0) {
-        printf("Please enter a non-negative integer.\n");
-        return 1; // Exit the program with an error code
-    }
-    else if (num >= 4294967295){
-        printf("Please enter a number in the valid range of unsigned 32-bit integers. \n");
-        return 1; // Exit the program with an error code
+    if ((int)num < 0){
+        printf("Invalid Input. Please enter a non-negative integer.\n");
+        exit(0);
     }
 
     num_init = num;
