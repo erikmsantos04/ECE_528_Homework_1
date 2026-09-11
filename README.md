@@ -36,15 +36,12 @@ The difference between local and global variables is where they can be accessed 
 const char* name = “Erik”; // Global variable
 void clientAge(void) {
 	int age = 22; // Local variable
-
 	printf(“This is their age: %d\n“, age);
 }
 
 int main(void) {
 	clientAge();
-	
-	printf(“ This is %s”, “‘s age”);
-	
+	printf(“ This is %s”, “‘s age”);	
 	return 0;
 }
 
