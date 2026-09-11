@@ -14,7 +14,7 @@ int main() {
     printf("Enter a number a non-negative integer: "); // Prompt user
     scanf("%u", &num); // Read and store input
 
-    if ((int)num < 0){
+    if ((int)num < 0){ // Type cast to make comparison
         printf("Invalid Input. Please enter a non-negative integer.\n");
         exit(0);
     }
@@ -22,7 +22,7 @@ int main() {
     num_init = num;
 
     while (num != 0) {
-        num &= (num-1);
+        num &= (num-1); // Counts the set bits
         bits++;
     }
 
